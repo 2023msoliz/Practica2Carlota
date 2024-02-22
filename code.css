@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0; /* Asegura que no haya margen en el body */
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+header nav {
+    overflow: hidden;
+    padding-right: 35px;
+}
+
+header nav div {
+    float: right;
+    padding: 15px;
+    margin: 5px;
+}
+
+header nav div a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav div:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+header nav div:hover a {
+    text-decoration: underline;
+}
+
+/* Agrega margen superior al siguiente elemento para evitar que se solape con el header */
+section {
+    margin-top: 50px; /* Puedes ajustar el valor según sea necesario */
+}
+
+#titulo {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 55px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 2;
+}
+#main_imagen {
+    filter: brightness(0.3);
+}
+section div p {
+    position: absolute;
+    top: 49%;
+    left: 15%;
+    color: white;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 2;
+}
+.seccion1 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#img1 {
+    float: left;
+    width: 220px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#img2 {
+    float: right;
+    width: 220px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.text22 {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2letra {
+    font-family: Arial, Helvetica, sans-serif;
+}
